@@ -46,9 +46,10 @@ p {
 }
 
 .title {
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 0.4px;
     margin: 0 3rem 1rem;
+    font-size: 2rem;
 }
 
 .logocon {
@@ -134,7 +135,7 @@ label {
     text-align: center;
     color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.5px;
-    padding-top: 1.5rem;
+    padding-top: 2.5rem;
 }
 
 .submit-response {
