@@ -14,7 +14,7 @@ body {
 img {
     display: block;
     margin: 2rem auto;
-    border-radius: 50%;
+    border-radius: 10%;
     box-shadow: 5px 5px 10px #30009150;
 }
 
@@ -156,3 +156,7 @@ label {
 
 
 /* .work */
+
+.con {
+    margin-bottom: 3rem;
+}
