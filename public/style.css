@@ -3,6 +3,7 @@
 *::before {
     margin: 0;
     padding: 0;
+    font-size: 14px;
 }
 
 body {
@@ -91,8 +92,11 @@ textarea {
     font-size: 1.1rem;
 }
 
-input::placeholder {
-    color: rgba(0, 0, 0, 0.8);
+input::placeholder,
+textarea::placeholder {
+    font-weight: 500;
+    letter-spacing: .4px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 form input:nth-child(4) {
@@ -120,7 +124,7 @@ label {
 
 .footer {
     background-color: #300091;
-    height: 200px;
+    height: 250px;
     width: 100%;
     margin-top: 4.5rem;
 }
@@ -173,4 +177,45 @@ label {
     width: 50%;
     display: flex;
     justify-content: space-between;
+}
+
+@media(min-width:750px) {
+    *,
+    *::after,
+    *::before {
+        margin: 0;
+        padding: 0;
+        font-size: 17px;
+    }
+    .logocon {
+        height: 110px;
+    }
+    .logo {
+        transform: translateY(1.9rem);
+        width: 20%;
+        padding: .7rem 0;
+    }
+    .sam-pic {
+        width: 250px
+    }
+    form input,
+    textarea {
+        padding: 0.7rem 1rem;
+        width: 40%;
+        border-radius: 5px;
+        font-family: poppins;
+        /* background-color: #691eff; */
+        border: 2px solid #fff;
+        /* color: #fff;  */
+        font-size: 1.1rem;
+    }
+    .con {
+        width: 65%;
+    }
+    .logo-links {
+        justify-content: space-around;
+    }
+    .logo-links img {
+        width: 70px;
+    }
 }
