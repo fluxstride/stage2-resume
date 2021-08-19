@@ -11,7 +11,7 @@ body {
     font-family: poppins;
 }
 
-img {
+.sam-pic {
     display: block;
     margin: 2rem auto;
     border-radius: 10%;
@@ -165,4 +165,12 @@ label {
     margin-bottom: 3rem;
     padding: 1.5rem .5rem;
     border-radius: 10px;
+}
+
+.logo-links {
+    margin: 0 auto;
+    margin-top: -1.4rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
 }
