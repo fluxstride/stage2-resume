@@ -43,16 +43,15 @@ router.post("/submit", (req, res) => {
     var transporter = mailer.createTransport({
         service: "gmail",
         auth: {
-            user: "samueladexx@gmail.com",
-            pass: "09030316508",
+            user: "adexmailer@gmail.com",
+            pass: "Password@00000",
         },
     });
 
     var mailOptions = {
-        attachments: [{ filename: "1.txt", content: "hello world" }],
-        from: "Samuel Adekoya <samueladexx@gmail.com>",
+        from: "Samuel Adekoya <adexmailer@gmail.com>",
         to: response.email,
-        subject: "CONTACT RESPONSE",
+        subject: "Contact Response",
         html: `<p style=" font-size: 1.2rem;font-family: Poppins; line-height: 2">Thank you ${response.name} for reaching out to me. I will get back to you as soon as possible</p>`,
     };
 
@@ -63,8 +62,6 @@ router.post("/submit", (req, res) => {
             console.log("Email sent: " + info.response);
         }
     });
-
-    console.log(response);
     // userResponse.save(() => { console.log("response saved") })
     res.render("submit", { name: response.name });
 });
