@@ -14,7 +14,7 @@ body {
 
 .sam-pic {
     display: block;
-    margin: 2rem auto;
+    margin: 6rem auto 4rem;
     border-radius: 10%;
     box-shadow: 5px 5px 10px #30009150;
 }
@@ -56,7 +56,7 @@ p {
     width: 100%;
     height: 80px;
     /* background-color: #000; */
-    margin-bottom: 4rem;
+    /* margin-bottom: 6rem; */
 }
 
 .logo {
