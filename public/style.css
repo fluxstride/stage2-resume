@@ -181,6 +181,7 @@ p span {
     margin-bottom: 3rem;
     padding: 3rem 0.5rem;
     border-radius: 10px;
+    box-shadow: 5px 5px 15px #30009146;
 }
 
 .logo-links {
