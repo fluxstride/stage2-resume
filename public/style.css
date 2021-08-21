@@ -93,6 +93,7 @@ textarea {
     background-color: #691eff;
     /* color: #fff;  */
     font-size: 1.1rem;
+    color: #fff;
 }
 
 input::placeholder,
