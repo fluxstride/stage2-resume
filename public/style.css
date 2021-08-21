@@ -90,23 +90,26 @@ textarea {
     font-family: poppins;
     /* background-color: #691eff; */
     border: 2px solid #fff;
+    background-color: #691eff;
     /* color: #fff;  */
     font-size: 1.1rem;
 }
 
 input::placeholder,
 textarea::placeholder {
-    font-weight: 500;
-    letter-spacing: .4px;
-    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 form input:nth-child(4) {
     width: 40%;
-    background-color: #691eff;
+    background-color: #fff;
     border: 2px solid #fff;
-    color: #fff;
+    color: #691eff;
     box-shadow: 5px 5px 10px #30009167;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 
@@ -175,7 +178,7 @@ p span {
     width: 80%;
     margin: 0 auto;
     margin-bottom: 3rem;
-    padding: 3rem .5rem;
+    padding: 3rem 0.5rem;
     border-radius: 10px;
 }
 
@@ -187,7 +190,7 @@ p span {
     justify-content: space-between;
 }
 
-@media(min-width:750px) {
+@media (min-width: 750px) {
     *,
     *::after,
     *::before {
@@ -201,10 +204,10 @@ p span {
     .logo {
         transform: translateY(1.9rem);
         width: 35%;
-        padding: .7rem 0;
+        padding: 0.7rem 0;
     }
     .sam-pic {
-        width: 250px
+        width: 250px;
     }
     form input,
     textarea {
