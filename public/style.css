@@ -163,10 +163,11 @@ p span {
 
 .job-title {
     font-size: 1.4rem;
+    font-weight: 600;
 }
 
 .job-meta {
-    margin: -4rem 3rem 0;
+    margin: -4rem 3rem 0 5rem;
 }
 
 .job-description {}
