@@ -244,4 +244,7 @@ p span {
     .logo-links img {
         width: 70px;
     }
+    .footer {
+        height: 370px;
+    }
 }
