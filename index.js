@@ -50,12 +50,10 @@ router.post("/submit", (req, res) => {
 
     var mailOptions = {
         from: "Samuel Adekoya <adexmailer@gmail.com>",
-        to: "samueladexx@gmail.com",
+        to: response.email,
         subject: "Contact Response",
         html: `<p style=" font-size: 1.2rem;font-family: Poppins; line-height: 2">Thank you ${response.name} for reaching out to me. I will get back to you as soon as possible 
-        <p>Name = ${response.name} </p>
-        <p>email = ${response.email}</p>
-        <p>message = ${response.message}</p>
+       
         </p>`,
     };
 
